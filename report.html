@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FindME - Report an Item</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="FindME Logo">
+            <h2>FindME</h2>
+        </div>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="items.html">Lost & Found</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <section class="page-title">
+        <h1>Report an Item</h1>
+        <p>Help us find missing belongings around the campus.</p>
+    </section>
+
+    <section class="report-section">
+
+        <div class="report-box">
+
+            <h2>Item Information</h2>
+
+            <form>
+
+                <label>Report Type</label>
+                <select required>
+                    <option value="">Select Report Type</option>
+                    <option>Lost Item</option>
+                    <option>Found Item</option>
+                </select>
+
+                <label>Item Name</label>
+                <input type="text"
+                placeholder="Enter item name" required>
+
+                <label>Item Description</label>
+                <textarea rows="4"
+                placeholder="Describe the item..." required></textarea>
+
+                <label>Location</label>
+                <input type="text"
+                placeholder="Where was it lost or found?" required>
+
+                <label>Date</label>
+                <input type="date" required>
+
+                <label>Student Name</label>
+                <input type="text"
+                placeholder="Enter your name" required>
+
+                <button type="submit">Submit Report</button>
+
+                <a href="items.html" class="cancel-btn">
+                    Cancel
+                </a>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 FindME | School Campus Lost and Found</p>
+    </footer>
+
+</body>
+</html>
